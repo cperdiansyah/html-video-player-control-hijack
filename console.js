@@ -3,7 +3,7 @@
 // Check your video player id by inspecting the element on the video
 const id_video_player = '#movie_player'
 
-var video = document.querySelector(id_player);
+var video = document.querySelector(id_video_player);
 
 function allowMove() {
   $('input[id$="btnNext"]').removeAttr('disabled');
